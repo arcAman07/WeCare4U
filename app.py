@@ -22,6 +22,24 @@ def predict():
     if request.method == "POST":
         # ***************** 
         CycleWithPeakorNot = request.form.get('CycleWithPeakorNot')
+        ReproductiveCategory = request.form.get('ReproductiveCategory')
+        LengthofLutealPhase = request.form.get('LengthofLutealPhase')
+        FirstDayofHigh = request.form.get('FirstDayofHigh')
+        TotalNumberofHighDays = request.form.get('TotalNumberofHighDays')
+        TotalHighPostPeak = request.form.get('TotalHighPostPeak')
+        TotalNumberofPeakDays = request.form.get('TotalNumberofPeakDays')
+        TotalDaysofFertility = request.form.get('TotalDaysofFertility')
+        TotalFertilityFormula = request.form.get('TotalFertilityFormula')
+        LengthofMenses = request.form.get('LengthofMenses')
+        MensesScoreDayOne = request.form.get('MensesScoreDayOne')
+        MensesScoreDayTwo = request.form.get('MensesScoreDayTwo')
+        MensesScoreDayThree = request.form.get('MensesScoreDayThree')
+        MensesScoreDayFour = request.form.get('MensesScoreDayFour')
+        MensesScoreDayFive = request.form.get('MensesScoreDayFive')
+        TotalMensesScore = request.form.get('TotalMensesScore')
+        NumberofDaysofIntercourse = request.form.get('NumberofDaysofIntercourse')
+        IntercourseInFertileWindow = request.form.get('IntercourseInFertileWindow')
+        UnusualBleeding = request.form.get('UnusualBleeding')
 
 
         # ***************** 
